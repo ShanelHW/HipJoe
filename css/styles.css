@@ -1,0 +1,54 @@
+.tablink {
+    background-color: white;
+    color: black;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 18px 18px;
+    font-size: 18px;
+    width: 25%;
+    font-family: Roboto, terminal, sans-serif;
+}
+img{
+  border: 2px;
+  border-color:black;
+  padding: 18px 18px;
+}
+
+.tablink:hover {
+    background-color: white;
+    color: black;
+    
+}
+
+.tabcontent {
+    color: black;
+    display: none;
+    padding: 50px;
+    text-align: center;
+}
+p{
+  padding: 10px;
+}
+.nav{
+    text-align: center;
+}
+
+/* Style each tab content individually */ 
+#About {background-color:white;}
+#Portfolio {background-color:white;}
+#Education {background-color:white;}
+#Contact {background-color:white;}
+
+#share-buttons img {
+width: 35px;
+padding: 5px;
+border: 0;
+box-shadow: 0;
+display: inline;
+text-align:center;
+}
+#footer {
+text-align:center;
+}
