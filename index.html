@@ -29,17 +29,22 @@
 
 <div class="nav">
     <button class="tablink" onclick="openTab('About', this, 'teal')" id="defaultOpen">About</button>
-    <button class="tablink" onclick="openTab('Menu', this, 'orange')">Menu</button>
-    <button class="tablink" onclick="openTab('Services', this, 'yellow')">Services</button>
-    <button class="tablink" onclick="openTab('Careers', this, 'pink')">Careers</button>
+    <button class="tablink" onclick="openTab('Menu', this, 'teal')">Menu</button>
+    <button class="tablink" onclick="openTab('Services', this, 'teal')">Services</button>
+    <button class="tablink" onclick="openTab('Careers', this, 'teal')">Careers</button>
 
 </div>
 
 <body>
     <!--Reservation Button-->
+    <div class="row m-2">
+        <div class="column col-md-4"></div>
+            <div class="column col-md-4">
     <div class="" id="resbuttondiv">
         <a role="button" button type="button" data-toggle="modal" data-target="#reserveModal"
-            class="btn btn-outline-primary" title="">Reservations</a> </div>
+            class="btn bg-dark text-light btn-block" title="">Reservations</a> </div>
+    </div>
+    <div class="column col-md-4"></div></div>
     </div>
     </div>
     </header>
@@ -155,21 +160,7 @@
     <!-- Menu Section -->
     <div id="Menu" class="tabcontent">
         <div class="container">
-                                <h1 class=".card-title jumbotron">HipJoe</h1>
-                    <row>
-                        <div class="col-sm">
-                            <picture>
-                                <div id="img" class="center">
-                                    <img src="img/hipjoe-color.png" alt="HipJoe Logo" class="img-fluid img-thumbnail">
-                                </div>
-                            </picture>
-                        </div>
-                        <div class="col-sm">
-                            <div class="card">
-                                <h2 class=".card-title">meet-drink-eat</h2>
-                            </div>
-                            
-            <h1>Menu</h1>
+                    <h1 class=".card-title jumbotron bg-light">Menu</h1>                  
             <div class="row">
                 <div class="column col-sm">
                     <div class="card" id="menu-item" ;>
@@ -282,8 +273,8 @@
     <div class="container">
         <h1>Services</h1>
         <div class="card">
-            <h2>Careers</h2>
-            <p> Cinnamon rich foam coffee java, aroma breve instant aroma affogato. Breve, saucer ut ristretto aged
+            <h2 class="">Careers</h2>
+            <p class= "m-5"> Cinnamon rich foam coffee java, aroma breve instant aroma affogato. Breve, saucer ut ristretto aged
                 blue mountain flavour grinder ristretto foam spoon.
 
                 Cup spoon foam mazagran java that caramelization shop aged dripper as java. Lungo latte irish beans
@@ -293,19 +284,18 @@
                 half et aged coffee grounds con panna.</p>
         </div>
     <script src="index.js"></script>
+</div>
 </body>
-<div id="footer">
+
+<div id="footer" class="bg-info">
     <!-- I got these buttons from simplesharebuttons.com -->
     <h5>©Davis Development and Design, 2020</h5>
 
-    <div class=>
+    <div class="">
         <p>Terms and Conditions | Privacy Policy | Allergy Disclaimer</p>
-        <p>Gluten-free Manifesto</p>
-        <p>404-770-7060 </p>
         <p>webmaster@davisdevelopmentanddesign.com </p>
-
-    </div>""
-    <div id="share-buttons">
+    </div>
+    <div id="share-buttons" class="btn-group">
         <!-- Facebook -->
         <a href="">
             <img src="https://simplesharebuttons.com/images/somacro/facebook.png" alt="Facebook" />
@@ -321,4 +311,5 @@
         </a>
     </div>
 
+</div>
 </div>
