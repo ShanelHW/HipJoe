@@ -14,10 +14,9 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
         integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
         crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster|Open+Sans">
-    <link rel="stylesheet" href="css/styles.css" />
+       <link rel="stylesheet" href="css/styles.css" />
     <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
-    <script src="index.js"></script>
+    
     <!-- Additional CSS must be placed after Bootstrap CSS -->
     <!-- Bootstrap -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
@@ -29,18 +28,18 @@
 <!-- Menu-->
 
 <div class="nav">
-    <button class="tablink" onclick="openTab('About', this, 'gray')" id="defaultOpen">About</button>
-    <button class="tablink" onclick="openTab('Menu', this, 'gray')">Menu</button>
-    <button class="tablink" onclick="openTab('Services', this, 'gray')">Services</button>
-    <button class="tablink" onclick="openTab('Careers', this, 'gray')">Careers</button>
+    <button class="tablink" onclick="openTab('About', this, 'teal')" id="defaultOpen">About</button>
+    <button class="tablink" onclick="openTab('Menu', this, 'orange')">Menu</button>
+    <button class="tablink" onclick="openTab('Services', this, 'yellow')">Services</button>
+    <button class="tablink" onclick="openTab('Careers', this, 'pink')">Careers</button>
 
 </div>
 
 <body>
     <!--Reservation Button-->
-    <div class="col-md-4 col-xl-2 text-center">
+    <div class="" id="resbuttondiv">
         <a role="button" button type="button" data-toggle="modal" data-target="#reserveModal"
-            class="btn btn-primary bg-dark text-light" title="">Reservations</a> </div>
+            class="btn btn-outline-primary" title="">Reservations</a> </div>
     </div>
     </div>
     </header>
@@ -116,34 +115,32 @@
     </header>
 
     <!-- About Section -->
-    <div id="welcome-section">
-        <div id="About" class="tabcontent">
+            <div id="About" class="tabcontent">
             <div class="container">
                 <div class="card">
-                    <h1 class=".card-title jumbotron">HipJoe</h1>
+                    <h1 class=".card-title jumbotron bg-light">HipJoe</h1>
                     <row>
                         <div class="col-sm">
                             <picture>
                                 <div id="img" class="center">
                                     <img src="img/hipjoe-color.png" alt="HipJoe Logo" class="img-fluid img-thumbnail">
+                                    <h2 class=".card-title">meet-drink-eat</h2>
+
                                 </div>
                             </picture>
-                        </div>
-                        <div class="col-sm">
-                            <div class="card">
-                                <h2 class=".card-title">meet-drink-eat</h2>
                                 <div class="card-body">
-                                    <h3 class=".card-subtitle"> </h3>
-                                    <p>Where hipsters meet, drink, and eat.</p>
+
+                                    <h3 class=".card-subtitle">"...where hipsters meet." </h3>
+                                    
                                     <p>To go froth and, sit froth mug rich trifecta single shot sugar iced. At,
-                                        macchiato, cream, robust iced acerbic doppio plunger pot.
+                                        macchiato, cream, robust iced acerbic doppio plunger pot.</p>
 
-                                        Cinnamon rich foam coffee java, aroma breve instant aroma affogato. Breve,
-                                        saucer ut ristretto aged blue mountain flavour grinder ristretto foam spoon.
-
+                                        <h3 class=".card-subtitle">"...where hipsters drink." </h3>
+                                        <p>Cinnamon rich foam coffee java, aroma breve instant aroma affogato. Breve,
+                                        saucer ut ristretto aged blue mountain flavour grinder ristretto foam spoon.</p>
+                                        <h3 class=".card-subtitle">"...where hipsters eat." </h3>
                                         Cup spoon foam mazagran java that caramelization shop aged dripper as java.
                                         Lungo latte irish beans to go aged lungo crema medium ristretto.
-
                                         So filter grounds, in cinnamon sweet, steamed eu black milk strong. Crema
                                         pumpkin spice half and half et aged coffee grounds con panna.</p>
                                 </div>
@@ -153,7 +150,7 @@
                 </row>
             </div>
         </div>
-    </div>
+  
 
     <!-- Menu Section -->
     <div id="Menu" class="tabcontent">
@@ -295,7 +292,7 @@
                 So filter grounds, in cinnamon sweet, steamed eu black milk strong. Crema pumpkin spice half and
                 half et aged coffee grounds con panna.</p>
         </div>
-
+    <script src="index.js"></script>
 </body>
 <div id="footer">
     <!-- I got these buttons from simplesharebuttons.com -->

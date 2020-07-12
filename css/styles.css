@@ -28,6 +28,7 @@ img{
     padding: 50px;
     text-align: center;
 }
+
 p{
   padding: 10px;
 }
@@ -36,11 +37,23 @@ p{
 }
 
 /* Style each tab content individually */ 
-#About {background-color:white;}
-#Portfolio {background-color:white;}
-#Education {background-color:white;}
-#Contact {background-color:white;}
+#About {
+  background-color:white;
+}
+#Portfolio {
+  background-color:white;
+}
+#Education {
+  background-color:white;
+}
+#Contact {
+  background-color:white;
+}
 
+#resbuttondiv{
+  text-align: center;
+  align:center;
+}
 #share-buttons img {
 width: 35px;
 padding: 5px;
