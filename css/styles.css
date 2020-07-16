@@ -5,16 +5,18 @@
     border: none;
     outline: none;
     cursor: pointer;
-    padding: 18px 18px;
+    padding: 30px 30px 30px 30px;
     font-size: 18px;
     width: 25%;
-    font-family: Roboto, terminal, sans-serif;
-}
+  }
 img{
+ padding: 0px 0px 0px 0px;
+}
+header{
   border: 2px;
   border-color:black;
-  padding: 18px 18px;
-}
+  padding: 0px 0px 0px 0px;
+  }
 
 .tablink:hover {
     background-color: white;
@@ -32,8 +34,12 @@ img{
 p{
   padding: 10px;
 }
+h4{
+  padding: 30px 10px 10px 10px;
+}
 .nav{
     text-align: center;
+    padding-top: 0%;
 }
 
 /* Style each tab content individually */ 
@@ -60,4 +66,20 @@ text-align:center;
 }
 #footer {
 text-align:center;
+padding: 10px 10px 10px 10px;
+text-align:center;
 }
+#meetdrinkeat {
+  text-align:center;
+  padding: 10px 10px 10px 10px;
+  text-align:center;
+  }
+ .carousel-img{
+      padding: 10px 10px 10px 10px;
+      max-width:550px;
+      max-height:450px
+      min-width:550px;
+      min-height:450px
+
+    }
+  }
