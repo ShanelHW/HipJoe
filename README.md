@@ -23,7 +23,7 @@
 <h3 align="center">HipJoe</h3>
 
   <p align="center">
-    project_description
+    HipJoe is a coffee shop and urban meeting space. Rent a room or order ahead from the site. Order APp coming soon...
     <br />
     <a href="[https://github.com/github_username/repo_name](https://github.com/shanelhw/HipJoe)"><strong>Explore the docs »</strong></a>
     <br />
